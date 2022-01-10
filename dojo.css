@@ -1,0 +1,54 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+button.btn{
+    background-color: rgb(53, 156, 142);
+    color: white;
+    padding: 5px 10px;
+}
+.row{
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    flex:1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #323232;
+    align-items: center;
+}
+.card{
+    margin-bottom: 60px;
+    width: 500px;
+    border: 2px solid rgb(150, 150, 150);
+}
+/*card-header y body generales*/
+.card-header{
+    background-color: #2b2b2b;
+    color: white;
+    padding:auto 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-body{
+    padding-left: 20px;
+}
+.card-body>*{
+    margin: 10px 0;
+}
